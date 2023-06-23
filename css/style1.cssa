@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+body{font-family: 'Noto Sans KR', sans-serif;}
+.container{width:1200px; margin: 0 auto; height: inherit;/*  background: rgba(0,0,0,.3);  */}
+#header{width: 100%; height: 129px; border-bottom: 3px solid #b90f0f; position: relative;}
+#footer{width: 100%; height:auto; }
+
+.header-content{width: 100%; height:54px; background: #ddd; }
+.sns-wrap{float: left;}
+.sns-wrap ul li{float: left;margin-top: 16px; margin-right: 10px;}
+.sns-wrap ul li a{display: block;}
+.all-menu-wrap{float: right;}
+.all-menu-wrap ul{margin: 16px 0;}
+.all-menu-wrap ul li{float: left; position: relative;}
+.all-menu-wrap ul li:not(:last-child){ padding: 0 18px;}
+.all-menu-wrap ul li:not(:last-child):after{ content:""; width: 1px; height: 10px; background: #78808d; position: absolute; right: 0; top:5px}
+.all-menu-wrap ul li:last-child{ padding-left: 18px;}
+.all-menu-wrap ul li a{color: #78808d}
+.all-menu-wrap ul li .red-text{color: #e00028}
+.header-nav h1{float: left; margin-top: 15px;}
+.header-nav .nav{float: right;margin-top: 25px;}
+.header-nav .nav > ul > li{float: left; padding: 0 30px; }
+.header-nav .nav > ul > li:last-child{padding-right: 0 }
+.header-nav .nav > ul > li > a{ font-size: 17px; color: #3b3f48; padding-bottom: 35px}
+.header-nav .nav > .width100{width: 100%; position: absolute; top:132px; left: 0; background: #eee url(../img/image06.png) no-repeat center center/100%; display: none; height: auto; z-index: 999999999;}
+.header-nav .nav:hover > .width100{ display:block; border-bottom: 2px solid #b90f0f;}
+.header-nav .nav > .width100 .container{border-left: 1px solid #ccc; }
+.header-nav .nav > .width100 .container ul{overflow: hidden;}
+.header-nav .nav > .width100 .container ul li{float: left;width:16.666%; box-sizing: border-box; padding: 30px 20px; border-right: 1px solid #ccc; height: 380px;}
+.header-nav .nav > .width100 .container ul li dl dt{ border-bottom: 1px solid #ccc; padding-bottom: 10px; margin-bottom: 15px;}
+.header-nav .nav > .width100 .container ul li dl dt a{font-size: 17px; font-weight: bold;}
+.header-nav .nav > .width100 .container ul li dl dd{line-height: 200%;}
+.header-nav .nav > .width100 .container ul li dl dd a{padding: 5px 0 5px 5px; display: block; width: 100%}
+.header-nav .nav > .width100 .container ul li dl dd a:hover{background: #b90f0f; color: #fff}
+
+.main{
+    width: 100%;
+    height: 148px;
+    background: url(../subfaceimg/mainimg.png) no-repeat center;
+}
+
+.main h2{
+    font-size: 38px;
+    color: #fff;
+    text-align: center;
+    line-height: 148px;
+}
+.submenu_wrap{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    
+}
+.submenu{
+    width: 80%;
+    display: inline-block;
+
+}
+.submenu ul li{
+    line-height: 50px;
+    width: 20%;
+    float: left;
+    border-right: 1px solid #ccc;
+}
+.submenu ul li a i{
+    margin-left: 150px;
+}
+.home{
+    width: 61px;
+    height: 50px;
+    background: url(../subfaceimg/home.png) no-repeat;
+}
+
+.submenu ul li:first-child{
+    width: 61px;
+    height: 50px;
+}
+.list{
+    margin: 0 auto;
+    width: 500px;
+    height: 58px;
+    margin-top: 50px;
+}
+.list ul{
+    display: inline-block;
+}
+.list ul li{
+    width: 240px;
+    height: 58px;
+    float: left;
+    line-height: 58px;
+    cursor: pointer;
+}
+.redb{          
+    color: #fff;
+    background: #e00028;
+    font-size: 16px;
+    border: 1px solid #e00028;;
+    margin: 0 auto;
+    }
+.whiteb{ font-size: 16px;
+        width: 240px;
+        border: 1px solid #8a8a8a;;
+        margin: 0 auto;
+        background: #fff;
+        color: #505050;
+
+        
+    }
+.list ul li a{
+    color: #fff;
+}
+.whiteb a span{
+    color: #000;
+}
